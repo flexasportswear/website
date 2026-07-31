@@ -201,7 +201,7 @@ function Field({ label, name, type = 'text', required, placeholder, className = 
 function Sidebar() {
   const contacts = [
     { icon: MessageCircle, label: 'WhatsApp', value: '+92 370 631 1227', href: 'https://wa.me/923706311227' },
-    { icon: Mail, label: 'Email', value: 'info@flexasportswear.online', href: 'mailto:info@flexasportswear' },
+    { icon: Mail, label: 'Email', value: 'flexasportswear@gmail.com', href: 'mailto:flexasportswear@gmail.com' },
     { icon: Instagram, label: 'Instagram', value: '@flexa_sportswear', href: 'https://instagram.com/flexa_sportswear' },
     { icon: Music2, label: 'TikTok', value: '@flexa_sportswear', href: 'https://tiktok.com/@flexa_sportswear' },
   ];
