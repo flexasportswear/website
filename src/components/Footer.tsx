@@ -25,7 +25,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2.5">
-              <img src="src/logo.png" alt="flexa Logo" className="h-11 w-11" />
+              <img src="/logo.png" alt="flexa Logo" className="h-11 w-11" />
             </Link>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-ink-300">
               Manufacturing premium custom sportswear for clubs, academies, and
