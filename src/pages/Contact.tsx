@@ -60,11 +60,15 @@ function ContactForm() {
       phone: formData.get('phone') as string,
       message: formData.get('message') as string,
     };
+    
+const serviceId = "service_wy4g32t";
+const templateId = "template_3ypa16w";
+const publicKey = "lU8_Mpf-qvM0z2ARo";
 
 try {
   await emailjs.send(
-    import.meta.env.VITE_EMAILJS_SERVICE_ID,
-    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    serviceId,
+    templateId,
     {
       name: payload.name,
       company: payload.company,
@@ -73,7 +77,7 @@ try {
       phone: payload.phone,
       message: payload.message,
     },
-    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    publicKey
   );
 
   setStatus('success');
