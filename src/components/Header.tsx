@@ -46,7 +46,7 @@ export function Header() {
               transparent ? 'text-white' : 'text-ink-900'
             }`}
           >
-            <img src="src/logo.png" alt="flexasportswear Logo" className="h-9 w-9" />
+             <img src="/logo.png" alt="flexa Logo" className="h-9 w-9" />
           </Link>
 
           {/* Desktop nav */}
