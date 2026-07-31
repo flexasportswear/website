@@ -125,7 +125,7 @@ export function Header() {
         >
           <div className="flex items-center justify-between border-b border-ink-100 px-6 py-5">
             <span className="flex items-center gap-2.5">
-              <img src="src/logo.png" alt="flexa Logo" className="h-9 w-9" /> 
+              <img src="/logo.png" alt="flexa Logo" className="h-9 w-9" /> 
             </span>
             <button onClick={() => setMobileOpen(false)} aria-label="Close menu">
               <X className="h-6 w-6 text-ink-500" />
