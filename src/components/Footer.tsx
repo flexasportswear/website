@@ -13,7 +13,7 @@ const socials = [
   { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/flexa_sportswear' },
   { icon: Music2, label: 'TikTok', href: 'https://tiktok.com/@flexa_sportswear' },
   { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/923706311227' },
-  { icon: Mail, label: 'Email', value: 'info@flexasportswear.online', href: 'mailto:flexasportswear@gmail.com },
+  { icon: Mail, label: 'Email', value: 'info@flexasportswear.online', href: 'mailto:flexasportswear@gmail.com' },
 ];
 
 export function Footer() {
